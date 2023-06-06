@@ -1,0 +1,30 @@
+// NOP since first instruction is skipped
+core_proc.InstructionFetch_Module.InstructionMemory.instr_RAM[0] = 8'h00;
+core_proc.InstructionFetch_Module.InstructionMemory.instr_RAM[1] = 8'h00;
+core_proc.InstructionFetch_Module.InstructionMemory.instr_RAM[2] = 8'h00;
+core_proc.InstructionFetch_Module.InstructionMemory.instr_RAM[3] = 8'h00;
+
+// lw x9, 0(x0)
+core_proc.InstructionFetch_Module.InstructionMemory.instr_RAM[4] = 8'h00;
+core_proc.InstructionFetch_Module.InstructionMemory.instr_RAM[5] = 8'h00;
+core_proc.InstructionFetch_Module.InstructionMemory.instr_RAM[6] = 8'h24;
+core_proc.InstructionFetch_Module.InstructionMemory.instr_RAM[7] = 8'h83;
+
+// add x1, x9, x2
+core_proc.InstructionFetch_Module.InstructionMemory.instr_RAM[8] = 8'h00;
+core_proc.InstructionFetch_Module.InstructionMemory.instr_RAM[9] = 8'h24;
+core_proc.InstructionFetch_Module.InstructionMemory.instr_RAM[10] = 8'h80;
+core_proc.InstructionFetch_Module.InstructionMemory.instr_RAM[11] = 8'hb3;
+
+// lw x8, 4(x0)
+core_proc.InstructionFetch_Module.InstructionMemory.instr_RAM[12] = 8'h00;
+core_proc.InstructionFetch_Module.InstructionMemory.instr_RAM[13] = 8'h40;
+core_proc.InstructionFetch_Module.InstructionMemory.instr_RAM[14] = 8'h24;
+core_proc.InstructionFetch_Module.InstructionMemory.instr_RAM[15] = 8'h03;
+
+// add x3, x8, x6
+core_proc.InstructionFetch_Module.InstructionMemory.instr_RAM[16] = 8'h00;
+core_proc.InstructionFetch_Module.InstructionMemory.instr_RAM[17] = 8'h64;
+core_proc.InstructionFetch_Module.InstructionMemory.instr_RAM[18] = 8'h01;
+core_proc.InstructionFetch_Module.InstructionMemory.instr_RAM[19] = 8'hb3;
+
