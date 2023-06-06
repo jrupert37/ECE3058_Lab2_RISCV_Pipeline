@@ -50,7 +50,6 @@ module Core_tb;
 	core_proc.InstructionFetch_Module.InstructionMemory.instr_RAM[1] = 8'h00;
 	core_proc.InstructionFetch_Module.InstructionMemory.instr_RAM[2] = 8'h00;
 	core_proc.InstructionFetch_Module.InstructionMemory.instr_RAM[3] = 8'h00;
-
 		// ----------------------------------------------------------------TASK 1 SIMPLE---------------------------------------------------------------------------------
 		// // lw x9, 0(x0)
 		// core_proc.InstructionFetch_Module.InstructionMemory.instr_RAM[4] = 8'h00;
